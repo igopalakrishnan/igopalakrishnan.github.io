@@ -1,0 +1,72 @@
+/* .verticaltext { 
+	width: 100;
+    transform: translate(0px, 110px)
+    rotate(270deg);
+    white-space: nowrap;
+
+    } */
+
+body {
+    font-family:  'Quicksand', sans-serif !important;
+}    
+
+i.social1:hover {
+    color: black;
+}
+i.social2:hover {
+    color:  #0e76a8;
+}
+i.social3:hover {
+    color: #4267B2;
+}
+i.social4:hover {
+    color: #833AB4;
+}
+.profile {
+    background-color: rgb(0, 125, 107);
+}
+
+.card-res:hover {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.font1 {
+    color: red;
+    background-color: rgb(255, 237, 237);
+}
+
+.font2 {
+    color: rgb(162, 202, 162);
+    background-color: rgb(244, 249, 250);
+}
+
+.font3 {
+    color: blue;
+    background-color: rgb(240, 238, 250);
+}
+
+
+.dev {
+    background-color: rgb(230, 243, 241);
+}
+
+.new {
+    background-color: rgb(0, 125, 107);
+}
+
+.say {
+    color: rgb(14, 147, 127);
+    text-decoration: underline;
+}
+.say:hover {
+    color: rgb(14, 147, 127);
+    text-decoration: underline;
+}
+
+.Heading {
+    color: rgb(122, 104, 240);
+}
+
+.language {
+    background-color: rgb(247, 253, 254);
+}
