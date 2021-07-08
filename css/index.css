@@ -10,6 +10,9 @@ body {
     font-family:  'Quicksand', sans-serif !important;
 }    
 
+.profile-picture {
+    width: 110%!important;
+}
 i.social1:hover {
     color: black;
 }
