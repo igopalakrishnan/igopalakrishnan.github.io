@@ -66,6 +66,7 @@ color: rgb(0, 125, 107);
     border-radius: 30px;
 }
 
+
 .card-res:hover {
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
 }
