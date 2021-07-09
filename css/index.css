@@ -7,7 +7,7 @@
     } */
 
 body {
-    font-family:  'Quicksand', sans-serif !important;
+    font-family: 'Quicksand', sans-serif !important;
 }    
 
 .profile-picture {
@@ -24,18 +24,29 @@ body {
     width: 20;
     height: 17;
 }
-i.social1:hover {
+
+
+.social-git:hover {
     color: black;
 }
-i.social2:hover {
+.social-linked-in:hover {
     color:  #0e76a8;
 }
-i.social3:hover {
+.social-fb:hover {
     color: #4267B2;
 }
-i.social4:hover {
+.social-insta:hover {
     color: #833AB4;
 }
+
+.new-icon {
+    background-color: rgb(230, 243, 241);
+}
+
+.new {
+    background-color: rgb(0, 125, 107);
+}
+
 
 
 .card-res:hover {
@@ -58,15 +69,9 @@ i.social4:hover {
 }
 
 
-.dev {
-    background-color: rgb(230, 243, 241);
-}
 
-.new {
-    background-color: rgb(0, 125, 107);
-}
 
-.say {
+.say-hi {
     color: rgb(14, 147, 127);
     text-decoration: underline;
 }
