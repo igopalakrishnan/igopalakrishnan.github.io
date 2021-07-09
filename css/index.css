@@ -44,10 +44,27 @@ body {
 }
 
 .new {
-    background-color: rgb(0, 125, 107);
+    background-color: rgb(0, 160, 110);
 }
 
 
+.about-me {
+    background-color: rgb(239, 255, 253);
+}
+
+.about-me-category {
+    margin-top: -150px;
+}
+
+
+.about-me-icon {
+color: rgb(0, 125, 107);
+}
+
+
+.about-me-skills {
+    border-radius: 30px;
+}
 
 .card-res:hover {
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
