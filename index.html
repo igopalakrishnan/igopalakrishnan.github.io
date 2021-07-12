@@ -12,12 +12,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="owl-carousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="owl-carousel/owl.carousel.min.css">
     <script src="https://kit.fontawesome.com/10022e2e9d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="index.js"></script>
+    <script src="./js/index.js"></script>
 </head>
 
 <body data-spy="scroll">
@@ -426,10 +428,9 @@
                 <h2><strong>Designed Around<br>These Tools</strong></h2>
             </div>
 
-            <div class="row align-items-center">
-                <div class="sketch-image">
-                    <img src="./assets/sketch.svg" alt="" style="width: 100px;
-                    margin-right: 30px;">
+            <div class="d-flex align-items-center justify-content-center">
+                <div class="sketch-image p-5">
+                    <img class="w-50" src="./assets/sketch.svg" alt="">
                 </div>
             </div>
 
@@ -443,34 +444,57 @@
                 <h2><strong>Worked Around<br>These Technologies</strong></h2>
             </div>
 
-            <div class="row align-items-center justify-content-between">
-                <div class="col-lg-2 col-md-3 col-sm-4">
-                    <img src="./assets/html.svg" alt="">
+
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div class="owl-carousel brand-carousel" id="owl-designs">
+                        <!-- single-brand -->
+                        <div class="single-brand-item d-table p-2">
+                            <div class="d-table-cell">
+                                <img src="assets/html.svg" alt="">
+                            </div>
+                        </div>
+                        <!-- single-brand -->
+                        <div class="single-brand-item d-table p-2">
+                            <div class="d-table-cell">
+                                <img src="assets/css.svg" alt="">
+                            </div>
+                        </div>
+                        <!-- single-brand -->
+                        <div class="single-brand-item d-table p-2">
+                            <div class="d-table-cell">
+                                <img src="assets/bootstrap.svg" alt="">
+                            </div>
+                        </div>
+                        <!-- single-brand -->
+                        <div class="single-brand-item d-table p-2">
+                            <div class="d-table-cell">
+                                <img src="assets/javascript.svg" alt="">
+                            </div>
+                        </div>
+                        <!-- single-brand -->
+                        <div class="single-brand-item d-table p-2">
+                            <div class="d-table-cell">
+                                <img src="assets/node js.svg" alt="">
+                            </div>
+                        </div>
+                        <!-- single-brand -->
+                        <div class="single-brand-item d-table p-2">
+                            <div class="d-table-cell">
+                                <img src="assets/mongodb.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-2 col-md-2 col-sm-4">
-                    <img src="./assets/css.svg" alt="">
-                </div>
-                <div class="col-lg-2 col-md-2 col-sm-4">
-                    <img src="./assets/bootstrap.svg" alt="" >
-                </div>
-                <div class="col-lg-2 col-md-2 col-sm-4">
-                    <img src="./assets/javascript.svg" alt="">
-                </div>
-                <div class="col-lg-2 col-md-2 col-sm-4">
-                    <img src="./assets/node js.svg" alt="">
-                </div>
-                <div class="col-lg-2 col-md-2 col-sm-4">
-                    <img src="./assets/react.svg" alt="">
-                </div>
-                <div class="col-lg-2 col-md-2 col-sm-4">
-                    <img src="./assets/mongodb.svg" alt="">
-                </div>
+
             </div>
+
 
         </div>
 
 
     </div>
+
 
     <!-- ======================END DESIGN===================== -->
 
@@ -553,7 +577,8 @@
 
     <!-- =========================ENS CONTACT======================== -->
 
-
+    <script src="owl-carousel/owl.carousel.min.js"></script>
+    <script src="owl-carousel/owl.autoplay.js"></script>
 </body>
 
 </html>
