@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400px" height="400px" viewBox="0 0 400 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>sketch</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-200.000000, -200.000000)">
+            <g id="sketch" transform="translate(200.000000, 200.000000)">
+                <rect id="Rectangle" stroke="#FDAD00" stroke-width="12" fill="#000000" x="6" y="6" width="388" height="388" rx="50"></rect>
+                <g id="Sketch_Logo" transform="translate(62.000000, 75.000000)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#FDB300" points="60.2460133 8.22693462 138.06378 0 215.881547 8.22693462 276.12756 89.1018848 138.06378 249.875709 0 89.1018848"></polygon>
+                    <g id="Group" transform="translate(0.000000, 89.101885)">
+                        <polygon id="Path" fill="#EA6C00" points="55.9227528 0 138.063904 160.773876 0 0"></polygon>
+                        <polygon id="Path" fill="#EA6C00" transform="translate(207.095483, 80.386938) scale(-1, 1) translate(-207.095483, -80.386938) " points="193.986284 0 276.127435 160.773876 138.063531 0"></polygon>
+                        <polygon id="Path" fill="#FDAD00" points="55.9227528 0 220.205056 0 138.063904 160.773876"></polygon>
+                    </g>
+                    <g id="Group">
+                        <polygon id="Path" fill="#FDD231" points="138.063904 0 60.2457865 8.22682584 55.9227528 89.1018258"></polygon>
+                        <polygon id="Path" fill="#FDD231" transform="translate(179.134056, 44.550913) scale(-1, 1) translate(-179.134056, -44.550913) " points="220.204632 0 142.386514 8.22682584 138.06348 89.1018258"></polygon>
+                        <polygon id="Path" fill="#FDAD00" transform="translate(246.004542, 48.664326) scale(-1, 1) translate(-246.004542, -48.664326) " points="215.881298 89.1018258 276.127787 8.22682584 271.804051 89.1018258"></polygon>
+                        <polygon id="Path" fill="#FDAD00" points="0 89.1018258 60.2457865 8.22682584 55.9227528 89.1018258"></polygon>
+                        <polygon id="Path" fill="#FEEEB7" points="138.063904 0 55.9227528 89.1018258 220.205056 89.1018258"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
