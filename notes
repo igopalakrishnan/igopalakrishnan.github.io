@@ -1,0 +1,83 @@
+6984841017475
+
+#800080-purple color
+
+https://www.youtube.com/watch?v=V1Pl8CzNzCw
+
+https://www.youtube.com/watch?v=fP_wPIgNK7s&list=PLB_Wd4-5SGAYsxD4JGaVdXll3PnoyI-AM&index=9
+
+
+https://www.youtube.com/watch?v=wCwKkT1P7vY
+
+https://learning.tcsionhub.in/hub/tcs-offcampus-2021/eventlogin/
+DT20217595169
+
+
+https://dribbble.com/shots/10144266/attachments/2107989?mode=media
+
+file:///Users/gokul/Documents/M/MyProject/index.html#
+
+https://github.com/igopalakrishnan
+
+https://www.linkedin.com/in/igopalakrishnan/
+
+https://www.facebook.com/gopalakrishna.gokhale.3
+
+https://www.instagram.com/i__gopalakrishnan/
+
+https://igopalakrishnan.blogspot.com/
+
+https://igopalakrishnan.github.io/
+
+  
+https://igopalakrishnan.github.io/#Works
+
+
+https://cutshort.io/profile/search/jobs/q/techtonic_2021?minexp=0&maxexp=0
+
+
+https://coderbyte.com/sl-candidate?inviteKey=fC0I3Y8pyc
+
+
+style="background-color: rgb(230, 243, 241);"
+style="background-color: rgb(0, 125, 107);"
+
+bg-color--#f1fdfb
+
+
+fab fa-css3
+fab fa-html5
+fab fa-node-js
+fab fa-react
+fas fa-mobile-alt
+fas fa-phone
+fas fa-database
+fas fa-pencil-ruler
+fas fa-layer-group
+far fa-envelope-open
+fab fa-js-square
+
+
+
+function sendMail() {
+        let email = 'kingkrishna809@gmail.com';
+        let subject = 'Hire Me!';
+        let body = `Hi Gokul, %0D%0A %0D%0A
+        I am [your name] and I work as a [your job_title] at [Company_name]. I saw your profile on [e.g. LinkedIn or GitHub] and I was really impressed by your experience in [add specific field or an achievement that caught your eye].%0D%0A %0D%0A Here at [Company_name], we are always looking to [e.g. grow or teams with talented people and achieve great things together / collaborate with talented people who’d like to work with one of our clients, like X, Y, Z companies.] %0D%0A %0D%0A [If you’re hiring for a specific role, it’s best to include specific information about the position, e.g. We are currently looking for a [job_title – add link to the job description] to join our team/ work with one of our clients. I’d love to tell you a little more about this position and learn a few things about you, as well.] %0D%0A %0D%0A I’d like to talk to you so I can get to know you better and introduce our company to you.
+        Are you available [Include date and time or a period of time, e.g. ‘sometime this week’]? If so, I’d be happy to set up a call. I’m also happy to coordinate via email or LinkedIn, if you prefer. %0D%0A %0D%0A
+        I hope you have a great day.
+
+        Sincerely,
+
+        [Your name]
+
+
+        %0D%0A %0D%0A Best Regards,%0D%0A Hiring Manager`;
+        
+        let mailtoLink = 'mailto:' + email + '?subject=' + subject + '&body=' + body + '&from=' + from;
+        window.open(mailtoLink, 'emailWindow');
+    }
+
+
+
+    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
