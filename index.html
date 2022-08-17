@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -42,12 +43,36 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-   <!--  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script> -->
     <script src="./js/index.js"></script>
 </head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="arrow up"></i></button>
+
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
 
     <!-- ====================START NAVBAR==================== -->
 
@@ -147,8 +172,7 @@
                     </div>
 
                     <div class="profile badge badge-pill text-white my-5 p-3">
-                        <a class="text-white mx-1 fa-lg text-decoration-none" href="/assets/Resume..pdf"
-                            download>
+                        <a class="text-white mx-1 fa-lg text-decoration-none" href="/assets/Resume..pdf" download>
                             Download CV
                             <i class='profile-arrow fas fa-chevron-right mx-2'></i>
                         </a>
@@ -167,7 +191,7 @@
     </div>
 
     <!-- =======================END PROFILE================== -->
-    
+
 
     <!-- =======================START SKILLS================== -->
 
@@ -405,7 +429,7 @@
                     <div class="row p-3">
                         <div class="col-lg-8 col-md-8 pt-3">
                             <h4 style="color: rgb(0,  181, 130);">Bachelor of Engineering |
-                                <span style="color: gray;">Dhaanish Ahmed College of Engineering</span>
+                                <span style="color: gray;">Anna University Affiliated</span>
                             </h4>
                             <h5>Computer Science and Engineering</h5>
                             <p>Secured 7/10CGPA</p>
@@ -542,7 +566,7 @@
             <div class="col d-none d-lg-block ">
                 <img src="./assets/project3.png" alt="My works" class="w-50 m-5">
 
-                <div class="row my-5">
+                <!-- <div class="row my-5">
 
                     <div class="col">
                         <i class="font1 rounded-circle material-icons fa-2x p-3">zoom_out_map</i>
@@ -556,7 +580,7 @@
                         <p>Using these languages to create these Portfolio</p>
                     </div>
 
-                </div>
+                </div> -->
             </div>
 
 
@@ -565,7 +589,7 @@
 
                 <h6 class="text-primary"><strong>WORKS</strong></h6>
                 <h3><strong>Projects</strong></h3>
-                <div>
+                <!-- <div>
                     <h3 class="Heading">100 Days Programming </h3>
                     <p>Learning Javascript with 100 programs </p>
                     <a href="https://github.com/igopalakrishnan/javascript-program"
@@ -605,9 +629,17 @@
                             https://insta-clone-web.herokuapp.com/
                         </a></br>
                     </p>
+                </div> -->
+
+
+                <div class="profile badge badge-pill text-white my-5 p-3">
+                    <a class="text-white mx-1 fa-lg text-decoration-none" href="./html/Project.html">
+                        See My Works
+                        <i class='profile-arrow fas fa-chevron-right mx-2'></i>
+                    </a>
                 </div>
 
-                <!-- <div class="row my-5 d-none d-sm-inline-block">
+                <div class="row my-5 ">
 
                     <div class="col">
                         <i class="font1 rounded-circle material-icons fa-2x p-3">zoom_out_map</i>
@@ -621,7 +653,7 @@
                         <p>Using these languages to create these Portfolio</p>
                     </div>
 
-                </div> -->
+                </div>
 
             </div>
 

@@ -1,0 +1,27 @@
+/* client portal */
+
+.container-fluid {
+    background-color: rgb(0, 181, 130);
+    min-height: 300px;
+}
+.banner_inner {
+    padding: 100px;
+}
+
+h2 {
+    font-size: 50px;
+}
+.page_link {
+    color: white;
+}
+
+.project-link {
+    text-decoration: none;
+    color: white;
+}
+
+.project-link::after {
+    padding: 8px;
+    color: black;
+    content: ">\00a0";
+}

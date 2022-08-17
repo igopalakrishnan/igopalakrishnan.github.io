@@ -1,12 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/project.css">
     <title>Projects</title>
+    <script src="../js/project.js"></script>
 </head>
+
 <body>
-    
+    <div class="title">
+        <h2>Projects</h2>
+    </div>
+
+    <div class="timeline">
+        <div class="container left">
+            <h2 class="collapsible">Client's Portal</h2>
+            <div class="content">
+                <p>Manage Client's developers subscription</p>
+                <a href="../projects/clientPortal.html"><button class="button"><span>More </span></button>
+                </a>
+            </div>
+        </div>
+
+        <div class="container right">
+
+            <h2 class="collapsible">Course Tracker</h2>
+            <div class="content">
+                <p>Courses</p>
+                <a href="../projects/courseTracker.html"><button class="button"><span>More </span></button>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="title">
+        <h2>Personal Projects</h2>
+    </div>
+
+    <div class="timeline">
+        <div class="container left">
+            <h2 class="collapsible">Portfolio</h2>
+            <div class="content">
+                <p>Building Portfolio</p>
+                <a href="../projects/portfolio.html"><button class="button"><span>More </span></button>
+                </a>
+            </div>
+        </div>
+
+        <div class="container right">
+
+            <h2 class="collapsible">Instagram Clone</h2>
+            <div class="content">
+                <p>Created Instagram Clone using MERN Stack</p>
+                <a href="../projects/instagram.html"><button class="button"><span>More </span></button>
+                </a>
+            </div>
+
+        </div>
+        <div class="container left">
+            <h2 class="collapsible">E-commerce Flipkart-clone</h2>
+            <div class="content">
+                <p>Created E-commerce Flipkart-clone using MERN Stack</p>
+                <a href="../projects/e-commerce.html"><button class="button"><span>More </span></button>
+                </a>
+            </div>
+        </div>
+
+        <div class="container right">
+
+            <h2 class="collapsible">Book Keeping App</h2>
+            <div class="content">
+                <p>Created Book Keeping App using MERN Stack</p>
+                <a href="../projects/bookApp.html"><button class="button"><span>More </span></button>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.maxHeight) {
+                    content.style.maxHeight = null;
+                } else {
+                    content.style.maxHeight = content.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
+
 </body>
+
 </html>
