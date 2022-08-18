@@ -1,27 +1,68 @@
 /* client portal */
 
+body {
+    font-size: 14px;
+    line-height: 27px;
+    font-weight: 300;
+    color: #797979;
+}
+
 .container-fluid {
     background-color: rgb(0, 181, 130);
     min-height: 300px;
 }
-.banner_inner {
-    padding: 100px;
-}
 
-h2 {
-    font-size: 50px;
-}
-.page_link {
-    color: white;
-}
-
-.project-link {
-    text-decoration: none;
-    color: white;
-}
-
-.project-link::after {
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: rgb(0, 181, 130);
+  }
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+  ul.breadcrumb li+li:before {
     padding: 8px;
-    color: black;
+    color: white;
     content: ">\00a0";
-}
+  }
+  ul.breadcrumb li a {
+    color: white;
+    text-decoration: none;
+  }
+  ul.breadcrumb li a:hover {
+    color: black;
+    text-decoration: underline;
+  }
+
+  .list {
+      list-style: none;
+      margin: 0;
+      padding: 0%;
+  }
+
+  .list li i {
+      color: #f1cd09;
+  }
+
+  .fa {
+      font-weight: 900;
+      font-size: large;
+      margin-right: 5px;
+  }  
+  span {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    width: 97px;
+    display: inline-block;
+  }
+  h1, h2, h3, h4, h5, h6 {
+      font-weight: 500;
+      color: #000000;
+  }
+
+  .portfolio_right_text{
+      background-color: rgba(218, 249, 241, 0.404);
+      padding: 25px;
+  }
