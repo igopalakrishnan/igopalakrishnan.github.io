@@ -45,6 +45,12 @@ ul.breadcrumb {
       color: #f1cd09;
   }
 
+  .list li a{
+      text-decoration: none;
+      transition: all 0.3s ease-in-out;
+      color: #007bff;
+  }
+
   .fa {
       font-weight: 900;
       font-size: large;
