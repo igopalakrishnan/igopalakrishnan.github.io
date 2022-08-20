@@ -6,6 +6,108 @@
 
     } */
 
+    .dropdown {
+      padding: 8px 15px;
+      justify-content: center;
+      align-items: center;
+      color: rgba(0,0,0,.5);
+      font-size: 16px;
+      perspective: 1000px;
+      z-index: 100;
+    }
+    .dropdown:hover {
+      cursor: pointer;
+    }
+    .dropdown:hover .dropdown_menu li {
+      display: block;
+    }
+    .dropdown_menu {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      perspective: 1000px;
+      z-index: -1;
+    }
+    .dropdown_menu li {
+      display: none;
+      color: black;
+      background-color: rgba(218, 249, 241, 0.534);
+      padding: 10px 70px 10px 30px;
+      font-size: 16px;
+      opacity: 0;
+      border-radius: 5px;
+    }
+    .dropdown_menu li:hover {
+      background-color: rgba(0, 181, 130, 0.699);
+    }
+ 
+    .dropdown_menu-5 .dropdown_item-1 {
+      transform-origin: top center;
+      animation: translateX 300ms 60ms ease-in-out forwards;
+    }
+    .dropdown_menu-5 .dropdown_item-2 {
+      transform-origin: top center;
+      animation: translateX 300ms 120ms ease-in-out forwards;
+    }
+    .dropdown_menu-5 .dropdown_item-3 {
+      transform-origin: top center;
+      animation: translateX 300ms 180ms ease-in-out forwards;
+    }
+    @-moz-keyframes translateX {
+      0% {
+        opacity: 0;
+        transform: translateX(60px);
+      }
+      80% {
+        transform: translateX(-5px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateX(0px);
+      }
+    }
+    @-webkit-keyframes translateX {
+      0% {
+        opacity: 0;
+        transform: translateX(60px);
+      }
+      80% {
+        transform: translateX(-5px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateX(0px);
+      }
+    }
+    @-o-keyframes translateX {
+      0% {
+        opacity: 0;
+        transform: translateX(60px);
+      }
+      80% {
+        transform: translateX(-5px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateX(0px);
+      }
+    }
+    @keyframes translateX {
+      0% {
+        opacity: 0;
+        transform: translateX(60px);
+      }
+      80% {
+        transform: translateX(-5px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateX(0px);
+      }
+    }
+    
+
 body {
     font-family: 'Quicksand', sans-serif !important;
     position: relative; 
@@ -26,6 +128,13 @@ body {
     height: 17;
 }
 
+.linked {
+    color: black;
+}
+
+.linked:hover {
+    color: black;
+}
 
 .social-git:hover {
     color: rgb(0, 160, 110);;
